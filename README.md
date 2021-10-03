@@ -1,19 +1,18 @@
-# jooble_lesson2
-This is the Lesson2
+# URL
 
-Реалізація через AWS http://18.185.211.46:8080/read_posts
-
-Реалізація API з CRUD на основі фреймворку Flask, який дозволяє створювати Веб-сайти на основі мови Python.
-
-Для реалізації проекту використовується база даних SQLite та бібліотека SQLAlchemy, яка допомагає зв'язати обрану базу даних із Flask проектом.
-
+http://djangodevops.azurewebsites.net/read
 
 ## Resources and Actions
 
+All interface returns are in html format.
+
     URL                           HTTP         Operation
-    /read_posts                   GET          Get a collection of posts.
-    /read_posts?id=$value         GET          Show post by id. Example: /read_posts?id=2
-    /read_posts?lim=$value        GET          Show last n posts. Example: /read_posts?lim=3
-    /create_post                  GET          Create post.
-    /read_posts/$id/delete        GET          Delete post number $id
-    /read_posts/$id/update_post   GET          Update post number $id
+    /read                         GET          Get a collection of posts.
+    /read?id=$value               GET          Show post by id. Example: /read_posts?id=2
+    /read?n=$value                GET          Show last n posts. Example: /read_posts?n=3
+    /create                       GET          Create post.
+    /delete/$id                   GET          Delete post number $id
+    /update/$id                   GET          Update post number $id
+
+API created by Dima
+Readme created by Dennis
