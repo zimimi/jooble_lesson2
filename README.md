@@ -1,4 +1,4 @@
-# URL
+## URL
 
 http://djangodevops.azurewebsites.net/read
 
@@ -14,5 +14,4 @@ All interface returns are in html format.
     /delete/$id                   GET          Delete post number $id
     /update/$id                   GET          Update post number $id
 
-API created by Dima
-Readme created by Dennis
+API created by Dima | Readme created by Dennis
